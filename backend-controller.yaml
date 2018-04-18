@@ -16,8 +16,6 @@ spec:
       containers:
       - name: server
         image: io89/weatherapp_backend
-        command: ["docker run -p 8080:8080 weatherapp_backend"]
-        args: ["8080"]
         resources:
           requests:
             cpu: 100m
