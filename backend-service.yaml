@@ -6,8 +6,9 @@ metadata:
     app: weather
     tier: backend
 spec:
+  type: NodePort
   ports:
-  - port: 9000
+  - port: 80
     targetPort: 8080
   selector:
     app: weather
