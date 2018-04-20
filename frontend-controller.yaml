@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: front
-        image: io89/weatherapp_front
+        image: io89/forecast_front
         resources:
           requests:
             cpu: 100m

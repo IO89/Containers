@@ -15,10 +15,10 @@ spec:
     spec:
       containers:
       - name: server
-        image: io89/weatherapp_backend
+        image: io89/forecast_backend
         resources:
           requests:
             cpu: 100m
             memory: 100Mi
         ports:
-        - containerPort: 9000
+        - containerPort: 8080
